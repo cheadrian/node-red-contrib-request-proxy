@@ -1,6 +1,8 @@
 # node-red-contrib-http-request-proxy
 This is a node-red node for performing http(s) requests that use [Request](https://github.com/request/request) library with optimized proxy support.
+
 Thanks [spawnrider](https://github.com/spawnrider) for his work, which this is based on.
+
 Difference between this and [node-red-contrib-http-request](https://github.com/spawnrider/node-red-contrib-http-request) is that you can set a custom timeout and proxy at each input message, so you can use it as a proxy tester or in different situations where you need to change proxy freely and only at node level.
 
 ## Installation

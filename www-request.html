@@ -107,7 +107,8 @@
 		<li><code>proxy</code> is used as proxy to connect</li>
     </ul>
 	<p>In order to read more about how proxy connection works, please check <code>request</code> <a href="https://www.npmjs.com/package/request#proxies" target="_new">npm module page</a>. <code>Timeout</code> does as <code>request</code> documentation says in case of normal http request. In case of tunneling, <code>timeout</code> limits the <b>maximum</b> time for a complete response.</p>
-    <p>When configured within the node, the URL property can contain <a href="http://mustache.github.io/mustache.5.html" target="_new">mustache-style</a> tags. These allow the
+	<p><code>proxy</code> should be a string, format: <code>"http://127.0.0.1:8080"</code>. Read the <code>request</code> doc for more informations about format.</p>
+	<p>When configured within the node, the URL property can contain <a href="http://mustache.github.io/mustache.5.html" target="_new">mustache-style</a> tags. These allow the
     url to be constructed using values of the incoming message. For example, if the url is set to
     <code>example.com/{{{topic}}}</code>, it will have the value of <code>msg.topic</code> automatically inserted.
     Using {{{...}}} prevents mustache from escaping characters like / & etc.</p>

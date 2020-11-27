@@ -1,18 +1,18 @@
 {
-  "_from": "node-red-contrib-http-request-proxy@0.1.20",
-  "_id": "node-red-contrib-http-request-proxy@0.1.20",
+  "_from": "node-red-contrib-http-request-proxy@0.1.25",
+  "_id": "node-red-contrib-http-request-proxy@0.1.25",
   "_inBundle": false,
   "_location": "/node-red-contrib-http-request-proxy",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "node-red-contrib-http-request-proxy@0.1.20",
+    "raw": "node-red-contrib-http-request-proxy@0.1.25",
     "name": "node-red-contrib-http-request-proxy",
     "escapedName": "node-red-contrib-http-request-proxy",
-    "rawSpec": "0.1.20",
+    "rawSpec": "0.1.21",
     "saveSpec": null,
-    "fetchSpec": "0.1.20"
+    "fetchSpec": "0.1.21"
   },
   "_requiredBy": [
     "#USER",
@@ -24,7 +24,7 @@
     "url": "https://github.com/spawnrider"
   },
   "bugs": {
-    "url": "https://github.com/adryyy/node-red-contrib-http-request-proxy/issues"
+    "url": "https://github.com/cheadrian/node-red-contrib-request-proxyissues"
   },
   "bundleDependencies": false,
   "contributors": [
@@ -41,17 +41,17 @@
 	{
 	  "name": "Chelaru Adrian",
 	  "email": "che.adrian@yahoo.com",
-	  "url": "https://github.com/adryyy"
+	  "url": "https://github.com/cheadrian"
 	}
   ],
   "dependencies": {
     "mustache": "^2.2.1",
-    "request": "^2.74.0",
+    "request": "^2.88.2",
 	"tunnel-agent": "git+https://git@github.com/bda-research/tunnel-agent.git"
   },
   "deprecated": false,
   "description": "A Node-RED node for performing http(s) requests that use Request library with optimized proxy support.",
-  "homepage": "https://github.com/adryyy/node-red-contrib-http-request-proxy",
+  "homepage": "https://github.com/cheadrian/node-red-contrib-request-proxy",
   "keywords": [
     "node-red",
     "http",
@@ -70,5 +70,5 @@
     "type": "git",
     "url": "git+https://github.com/adryyy/node-red-contrib-http-request-proxy.git"
   },
-  "version": "0.1.20"
+  "version": "0.1.21"
 }
